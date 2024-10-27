@@ -22,7 +22,6 @@ use SolidInvoice\CoreBundle\Entity\Company;
 use SolidInvoice\CoreBundle\Form\Type\BillingIdConfigurationType;
 use SolidInvoice\CoreBundle\Form\Type\ImageUploadType;
 use SolidInvoice\MoneyBundle\Form\Type\CurrencyType;
-use SolidInvoice\NotificationBundle\Form\Type\NotificationType;
 use SolidInvoice\PaymentBundle\Entity\PaymentMethod;
 use SolidInvoice\SettingsBundle\Entity\Setting;
 use SolidInvoice\SettingsBundle\Form\Type\AddressType;
@@ -74,23 +73,12 @@ final class DefaultData
             ['setting_key' => 'invoice/id_generation/id_prefix', 'setting_value' => '', 'description' => 'Example: INV-', 'field_type' => TextType::class],
             ['setting_key' => 'invoice/id_generation/id_suffix', 'setting_value' => '', 'description' => 'Example: -INV', 'field_type' => TextType::class],
 
-            // Notification
-            ['setting_key' => 'notification/client_create', 'setting_value' => '{"email":true,"sms":false}', 'description' => null, 'field_type' => NotificationType::class],
-            ['setting_key' => 'notification/invoice_status_update', 'setting_value' => '{"email":true,"sms":false}', 'description' => null, 'field_type' => NotificationType::class],
-            ['setting_key' => 'notification/payment_made', 'setting_value' => '{"email":true,"sms":false}', 'description' => null, 'field_type' => NotificationType::class],
-            ['setting_key' => 'notification/quote_status_update', 'setting_value' => '{"email":true,"sms":false}', 'description' => null, 'field_type' => NotificationType::class],
-
             // Quote
             ['setting_key' => 'quote/bcc_address', 'setting_value' => null, 'description' => 'Send BCC copy of quote to this address', 'field_type' => EmailType::class],
             ['setting_key' => 'quote/email_subject', 'setting_value' => 'New Quotation - #{id}', 'description' => 'To include the id of the quote in the subject, add the placeholder {id} where you want the id', 'field_type' => TextType::class],
             ['setting_key' => 'quote/id_generation/strategy', 'setting_value' => 'auto_increment', 'description' => '', 'field_type' => BillingIdConfigurationType::class],
             ['setting_key' => 'quote/id_generation/id_prefix', 'setting_value' => '', 'description' => 'Example: QUOT-', 'field_type' => TextType::class],
             ['setting_key' => 'quote/id_generation/id_suffix', 'setting_value' => '', 'description' => 'Example: -QUOT', 'field_type' => TextType::class],
-
-            // SMS
-            ['setting_key' => 'sms/twilio/number', 'setting_value' => null, 'description' => null, 'field_type' => TextType::class],
-            ['setting_key' => 'sms/twilio/sid', 'setting_value' => null, 'description' => null, 'field_type' => TextType::class],
-            ['setting_key' => 'sms/twilio/token', 'setting_value' => null, 'description' => null, 'field_type' => TextType::class],
 
             // System
             ['setting_key' => 'system/company/logo', 'setting_value' => null, 'description' => null, 'field_type' => ImageUploadType::class],
