@@ -291,16 +291,16 @@
         },
         {
             "name": "async-aws/core",
-            "version": "1.22.0",
+            "version": "1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/async-aws/core.git",
-                "reference": "cbd7012890a35a9b21f7235817a627488709551b"
+                "reference": "63295bdfa8ed7084964fa18f5e234ddddb609f78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/async-aws/core/zipball/cbd7012890a35a9b21f7235817a627488709551b",
-                "reference": "cbd7012890a35a9b21f7235817a627488709551b",
+                "url": "https://api.github.com/repos/async-aws/core/zipball/63295bdfa8ed7084964fa18f5e234ddddb609f78",
+                "reference": "63295bdfa8ed7084964fa18f5e234ddddb609f78",
                 "shasum": ""
             },
             "require": {
@@ -343,7 +343,7 @@
                 "sts"
             ],
             "support": {
-                "source": "https://github.com/async-aws/core/tree/1.22.0"
+                "source": "https://github.com/async-aws/core/tree/1.22.1"
             },
             "funding": [
                 {
@@ -355,20 +355,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-07-03T17:28:59+00:00"
+            "time": "2024-10-09T08:09:09+00:00"
         },
         {
             "name": "async-aws/ses",
-            "version": "1.8.1",
+            "version": "1.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/async-aws/ses.git",
-                "reference": "7917c218ab27f6602e6f581bc5f4a54fb0e67dc6"
+                "reference": "425303dca8590573f46be263731fdbb8317f44b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/async-aws/ses/zipball/7917c218ab27f6602e6f581bc5f4a54fb0e67dc6",
-                "reference": "7917c218ab27f6602e6f581bc5f4a54fb0e67dc6",
+                "url": "https://api.github.com/repos/async-aws/ses/zipball/425303dca8590573f46be263731fdbb8317f44b4",
+                "reference": "425303dca8590573f46be263731fdbb8317f44b4",
                 "shasum": ""
             },
             "require": {
@@ -400,7 +400,7 @@
                 "ses"
             ],
             "support": {
-                "source": "https://github.com/async-aws/ses/tree/1.8.1"
+                "source": "https://github.com/async-aws/ses/tree/1.8.2"
             },
             "funding": [
                 {
@@ -412,7 +412,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-07-03T17:28:59+00:00"
+            "time": "2024-10-09T08:09:09+00:00"
         },
         {
             "name": "async-aws/sns",
