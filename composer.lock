@@ -16964,7 +16964,7 @@
         },
         {
             "name": "twig/inky-extra",
-            "version": "v3.13.0",
+            "version": "v3.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/inky-extra.git",
@@ -17018,7 +17018,7 @@
                 "twig"
             ],
             "support": {
-                "source": "https://github.com/twigphp/inky-extra/tree/v3.13.0"
+                "source": "https://github.com/twigphp/inky-extra/tree/v3.15.0"
             },
             "funding": [
                 {
