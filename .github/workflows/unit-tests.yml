@@ -74,6 +74,7 @@ jobs:
             github.com:443
             googlechromelabs.github.io:443
             ingest.codecov.io:443
+            keybase.io:443
             objects.githubusercontent.com:443
             optimizationguide-pa.googleapis.com:443
             optimizationguide-pa.googleapis.com:80
