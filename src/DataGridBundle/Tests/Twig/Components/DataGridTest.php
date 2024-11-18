@@ -30,8 +30,6 @@ final class DataGridTest extends LiveComponentTest
     {
         parent::setUp();
 
-        $this->markTestSkipped('This test is flaky, skipping until it can be made more robust');
-
         $this->component = $this->createLiveComponent(
             name: DataGrid::class,
             data: [
@@ -40,7 +38,9 @@ final class DataGridTest extends LiveComponentTest
             client: $this->client,
         )->actingAs($this->getUser());
 
-        ClientFactory::createMany(20, ['company' => $this->company, 'archived' => null, 'status' => 'active']);
+        $this->markTestSkipped('This test is flaky, skipping until it can be made more robust');
+
+        // ClientFactory::createMany(20, ['company' => $this->company, 'archived' => null, 'status' => 'active']);
     }
 
     protected function getSnapshotId(): string
